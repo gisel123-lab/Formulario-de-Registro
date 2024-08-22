@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1> !Regístrate y únete a la comunidad! </h1>
+    <form>
+        <fieldset>
+            <legend><h3> Formulario </h3></legend>
+            <div>
+                <label for="nombre"> Nombre:</label>
+                <input type="text" id="nombre" placeholder="Escribe tu nombre">
+            </div>
+            <div> 
+                <label for="apellido"> Apellido: </label>
+                <input type="text" id="apellido" placeholder="Escribe tu apellido">
+            </div>
+            <div>
+                <label for="correo_electrónico"> Correo Electrónico: </label>
+                <input type="email" id="correo_electrónico" placeholder="Escribe tu correo aquí">
+            </div>
+            <div>
+                <label for="contraseña"> Contraseña: </label>
+                <input type="password" id="contraseña" placeholder="contraseña aquí">
+            </div>
+            <div>
+                <label for="confirmar_contraseña"> Confirmar Contraseña: </label>
+                <input type="password" id="confirmar_contraseña">
+            </div>
+            <div>
+                <label for="fecha_nacimiento"> Fecha de Nacimiento: </label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+            </div>
+            <p>Género:</p>
+            <input type="radio" id="Masculino" name="género">
+            <label for="Masculino"> Masculino </label>
+            <input type="radio" id="Femenino" name="género">
+            <label for="Femenino"> Femenino </label>
+            <input type="radio" id="prefiero_no_decir" name="género">
+            <label for="prefiero_no_decir"> Prefiero no decir </label>
+            <div>
+                <h3> ¿Que lenguaje de programación conoces?</h3>
+                <input type="checkbox" id="HTML" name="lenguajes">
+                <label for="HTML"> HTML </label> 
+            </div>
+            <div>
+                <input type="checkbox" id="javascript" name="lenguajes">
+                <label for="javascript"> JavaScript </label>  
+            </div>
+            <div>
+                <input type="checkbox" id="CSS" name="lenguajes">
+                <label for="CSS"> CSS </label> 
+            </div>
+            <div>
+                <h4> Dejanos una descripción de ti mismo </h4>
+                <textarea></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="suscribete_a_nuestro_boletín_de_noticias">
+                <label for="suscribete_a_nuestro_boletín_de_noticias"> Suscribete a nuestro boletín de noticias </label>
+            </div>
+            <div>
+                <label for="Selecciona_tu_interés"> Selecciona tu interés: </label>
+                <select id="Selecciona_tu_interés">
+                    <option>Selecciona un interés</option>
+                    <option>Música</option>
+                    <option>Deportes</option>
+                    <option>Viajes</option>
+                    <option>Tecnología</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">
+                    Regístrarse
+                </button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
